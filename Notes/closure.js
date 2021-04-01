@@ -1,3 +1,6 @@
+// memoization es cuando una funcion memoriza valores para no tener que volver a calcularlos.
+// ventaja: mas rapido, desventaja: ocupa mas memoria.
+
 const suma = (num) => {
     let resultado = num;
     const suma2 = (num) => {
