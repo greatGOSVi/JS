@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <input placeholder="type something" id="input1"/> 
+        <button id="btn1"> clickme uwu </button>
+        <p id="p1">Aun no dice ni mae</p>
+    </body>
+    <script>
+        const btn1 = document.getElementById("btn1");
+        const input1 = document.getElementById("input1");
+        const p1 = document.getElementById("p1");
+        btn1.addEventListener('mouseover', () => {console.log('rub me sempai >.<')});
+        input1.addEventListener('keyup', (event) => {p1.innerText=event.target.value;
+        console.log(event.target.getAttribute("id"))});
+    </script>
+</html>

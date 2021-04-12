@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <input id="input1" placeholder="Ex. Gabriel"/><br/>
+        <button id="button1">Send</button>
+        <p class="text2 text">Name: <span id="span1"></span></p>
+    </body>
+    <script>
+        const input1 = document.getElementById("input1");
+        const button1 = document.getElementById("button1");
+        const span1 = document.getElementById("span1");
+        button1.addEventListener("click", () => {
+            span1.innerText = input1.value;
+        })
+    </script>
+    <style>
+        #input1{
+            background-color:rgb(128, 220, 226);
+        }
+        input{
+            background-color:sandybrown;
+        }
+        #button1:hover{
+            background-color:teal;
+        }
+        .text{
+            color:orange;
+        }
+        .text2{
+            font-size: 20px;
+            color: blue;
+        }
+    </style>
+    <footer></footer>
+</html>

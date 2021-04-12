@@ -1,5 +1,6 @@
 // son True
 // numeros reales, menos el 0:         10
+// infinite
 // strings con al menos un caracter:   'Hola'
 // Symbols
 // objetos, incluso vacios { }
