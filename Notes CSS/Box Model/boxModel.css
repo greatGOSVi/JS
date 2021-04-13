@@ -1,0 +1,29 @@
+.div1 {
+  width: 200px;
+  height: 200px;
+  margin: 20px 100px;
+  background-color: bisque;
+}
+.div2 {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  border-left: 5px solid red;
+  background-color: aquamarine;
+}
+
+.divPadre {
+  width: 320px;
+  height: 320px;
+  background-color: black;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 10px solid blue;
+}
+.divHijo {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 5px dotted blue;
+  box-sizing: border-box;
+}

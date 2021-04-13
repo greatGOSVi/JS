@@ -1,0 +1,27 @@
+.boxPadre {
+  width: 500px;
+  height: 500px;
+  background-color: sandybrown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-wrap: wrap;
+}
+
+.boxHijo1 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.boxHijo2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.boxHijo3 {
+  width: 200px;
+  height: 200px;
+  background-color: slategrey;
+  display: inline;
+}
