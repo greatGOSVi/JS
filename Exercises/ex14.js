@@ -1,8 +1,9 @@
 function birthday(s, d, m) {
     let solution = 0;
-    let sum = 0;
 
     for (let i=0; i<s.length-(m-1); i++) {
+        let sum = 0;
+
         for (let j=0; j<m; j++) {
             sum += s[i+j];
         }
