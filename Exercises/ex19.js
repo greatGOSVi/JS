@@ -13,7 +13,7 @@ const salesByMatch = (ar) => {
     const keys = Object.keys(pairs);
     let odds;
 
-    for (i=0; i<keys.length; i++) {
+    for (let i=0; i<keys.length; i++) {
         odds = pairs[keys[i]] % 2;
         solution += (pairs[keys[i]] - odds) / 2;
     }
